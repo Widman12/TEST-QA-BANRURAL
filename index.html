@@ -67,7 +67,7 @@
 
     if(userGuess === randomNumber) {
       lastResult.textContent = 'Felicitaciones! adivinaste el número! El numero es: ' + randomNumber ;
-      lastResult.style.backgroundColor = 'black';
+      lastResult.style.backgroundColor = 'green';
       lowOrHi.textContent = '';
       setGameOver();
     } else if(guessCount === ATTEMPS) {
@@ -76,7 +76,7 @@
       setGameOver();
     } else {
       lastResult.textContent = 'Incorrecto! ';
-      lastResult.style.backgroundColor = 'green';
+      lastResult.style.backgroundColor = 'black';
       if(userGuess < randomNumber) {
         lowOrHi.textContent = 'El número es mayor!';
       } else if(userGuess > randomNumber) {
