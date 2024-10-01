@@ -40,6 +40,12 @@ Se le agrego:
             }
 --SOLUCION:: Se le agrego el codigo con el fin de asegurarse que la entrada sea si o si numero entero
 
+8vo error (Linea 76 y 85)
+lastResult.style.backgroundColor = 'green';
+lastResult.style.backgroundColor = 'black';
+SOLUCION: Se intercambiaron los colores, el verde estaba para el texto "numero incorrecto" y el negro para el resultado positivo.
+
+
 
 ------------------Se agregaron 2 validaciones extras-----------------------------
 (Linea 69)
